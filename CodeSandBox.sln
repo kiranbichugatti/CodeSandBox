@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestTimeToBuyAndSellStock",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseList", "ReverseList\ReverseList.csproj", "{94C07280-9FD6-4023-89FC-E5DED60DB53C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseInteger", "ReverseInteger\ReverseInteger.csproj", "{3E612C73-4374-43F9-AC6F-2A65150A0AE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{94C07280-9FD6-4023-89FC-E5DED60DB53C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94C07280-9FD6-4023-89FC-E5DED60DB53C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94C07280-9FD6-4023-89FC-E5DED60DB53C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E612C73-4374-43F9-AC6F-2A65150A0AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E612C73-4374-43F9-AC6F-2A65150A0AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E612C73-4374-43F9-AC6F-2A65150A0AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E612C73-4374-43F9-AC6F-2A65150A0AE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
