@@ -6,7 +6,7 @@ namespace Factorial
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+     
             Console.WriteLine("Enter an integer");
             var input = Console.ReadLine();
             int output = Factorial(Convert.ToInt32(input));
