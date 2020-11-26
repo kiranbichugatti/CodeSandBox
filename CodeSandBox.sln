@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckUniqueCharInString", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSubString", "LongestSubString\LongestSubString.csproj", "{5F70233B-B028-4072-AC48-83B42EA4BB23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optimal_Utilization", "Optimal_Utilization\Optimal_Utilization.csproj", "{8FD2EAE2-9729-42F6-9398-17AA1DC19AAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{5F70233B-B028-4072-AC48-83B42EA4BB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F70233B-B028-4072-AC48-83B42EA4BB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F70233B-B028-4072-AC48-83B42EA4BB23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FD2EAE2-9729-42F6-9398-17AA1DC19AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FD2EAE2-9729-42F6-9398-17AA1DC19AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FD2EAE2-9729-42F6-9398-17AA1DC19AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FD2EAE2-9729-42F6-9398-17AA1DC19AAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
