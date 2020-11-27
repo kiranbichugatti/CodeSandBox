@@ -21,25 +21,25 @@ namespace Optimal_Utilization
 
             while(i<x.Length && j>=0)
             {
-                var sum = x[i][1] + y[i][1];
+                var sum = x[i][1] + y[j][1];
 
                 if(sum>target)
                 {
                     j--;
                     continue;
                 }
-                if(sum<=target)
+                if(max<=sum)
                 {
-                    if(sum<target)
+                    if(max<sum)
                     {
                         max = sum;
                         result.Clear();
                     }
                     result.Add(new List<int>() { x[i][0], y[j][0] });
 
-                    while (i < x.Length - 1 && x[i][1] == x[i+1][1])
+                    while (i < x.Length - 1 && x[i][1] == x[i + 1][1])
                     {
-                        result.Add(new List<int>() { x[i+1][0], y[j][0] });
+                        result.Add(new List<int>() { x[i + 1][0], y[j][0] });
                         i++;
                     }
                 }
@@ -60,7 +60,7 @@ namespace Optimal_Utilization
                 list.Add($"[{string.Join(',', res)}]");
             System.Console.WriteLine($"[{string.Join(',', list)}]");
 
-            a = new int[4][] { new int[2] { 1, 3 }, new int[2] { 2, 5 }, new int[2] { 3, 7 }, new int[2] { 4, 10 } };
+            a = new int[4][] { new int[2] { 1, 3 }, new int[2] { 2, 5 }, new int[2] { 3, 5 }, new int[2] { 4, 10 } };
             b = new int[4][] { new int[2] { 1, 2 }, new int[2] { 2, 3 }, new int[2] { 3, 4 }, new int[2] { 4, 5 } };
             target = 10;
             result = Find(a, b, target);
