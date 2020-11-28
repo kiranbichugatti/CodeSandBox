@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSubString", "Longest
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optimal_Utilization", "Optimal_Utilization\Optimal_Utilization.csproj", "{8FD2EAE2-9729-42F6-9398-17AA1DC19AAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fullfilment_Builder", "Fullfilment_Builder\Fullfilment_Builder.csproj", "{13E9517A-0ABB-49B7-80FB-1FB8E9210959}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{8FD2EAE2-9729-42F6-9398-17AA1DC19AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FD2EAE2-9729-42F6-9398-17AA1DC19AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FD2EAE2-9729-42F6-9398-17AA1DC19AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E9517A-0ABB-49B7-80FB-1FB8E9210959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E9517A-0ABB-49B7-80FB-1FB8E9210959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E9517A-0ABB-49B7-80FB-1FB8E9210959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E9517A-0ABB-49B7-80FB-1FB8E9210959}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
